@@ -9,7 +9,7 @@
         margin: 0;
         border: 0;
       }
-      iframe {
+      #frame {
         position: relative;
         top: -50px;
         height: calc(100% + 50px);
@@ -17,6 +17,15 @@
     </style>
   </head>
   <body>
-    <iframe src="https://victorszabo0.wixsite.com/portfolio"></iframe>
+    <iframe
+      id="frame"
+      src="https://victorszabo0.wixsite.com/portfolio"
+    ></iframe>
+    <script>
+      if (document.location.hash === "#geotagging-camera") {
+        document.getElementById("frame").src =
+          "https://victorszabo0.wixsite.com/portfolio#comp-ldcw06gd";
+      }
+    </script>
   </body>
 </html>
