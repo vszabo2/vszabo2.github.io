@@ -22,9 +22,13 @@
       src="https://victorszabo0.wixsite.com/portfolio"
     ></iframe>
     <script>
-      if (document.location.hash === "#geotagging-camera") {
-        document.getElementById("frame").src =
-          "https://victorszabo0.wixsite.com/portfolio#comp-ldcw06gd";
+      const hashMap = new Map([
+        ["#geotagging-camera", "#comp-ldcw06gd"],
+        ["#projects", "#comp-ldb7uy1e"],
+      ]);
+      const newHash = hashMap.get(document.location.hash);
+      if (newHash) {
+        document.getElementById("frame").src += newHash;
       }
     </script>
   </body>
