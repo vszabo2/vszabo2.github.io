@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Science Group Project Links</title>
+    <style>
+      body {
+        max-width: 500px;
+        margin: auto;
+        font-family: sans-serif;
+      }
+      a {
+        display: block;
+        padding: 8px;
+        border: 1px solid black;
+        border-radius: 4px;
+        margin: 4px;
+      }
+      img {
+        vertical-align: middle;
+        height: 32px;
+      }
+      img.big {
+        height: auto;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://web.whatsapp.com/">
+      <img
+        src="https://static.whatsapp.net/rsrc.php/v3/y7/r/DSxOAUB0raA.png"
+        alt="WhatsApp logo"
+        class="big"
+      />
+      WhatsApp: "Data Science"
+    </a>
+    <a
+      href="https://drive.google.com/drive/folders/1Jr_1RuDN2ZEdUcJ9aFQgB2VdE7Yg4nki?usp=sharing"
+    >
+      <img
+        src="https://ssl.gstatic.com/images/branding/product/2x/drive_2020q4_96dp.png"
+        alt="Google Drive logo"
+        class="big"
+      />
+      Google Drive: "Data Science Group Project"
+    </a>
+    <a href="https://github.com/BhandarkarPawan/Jira-End-Date-Predictor">
+      <img
+        src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+        alt="GitHub logo"
+      />
+      GitHub: "BhandarkarPawan/Jira-End-Date-Predictor"
+    </a>
+  </body>
+</html>
